@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="96" y="816"/>
+            <point key="canvasLocation" x="96" y="770"/>
         </scene>
         <!--Profile-->
         <scene sceneID="dm4-Dp-yeu">
@@ -53,7 +53,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q9D-1X-GiF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="903" y="816"/>
+            <point key="canvasLocation" x="903" y="770"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="P7D-3z-LsN">
@@ -63,6 +63,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" red="0.010917579909999999" green="0.017817306040000001" blue="0.3123695138" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="fjH-XT-Yez" kind="relationship" relationship="viewControllers" id="gBC-iO-ctF"/>
@@ -77,7 +78,9 @@
         <scene sceneID="R8h-x2-isQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fjH-XT-Yez" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Chats" id="ldz-Ye-FDT"/>
+                    <tabBarItem key="tabBarItem" title="Chats" image="bubble.right" catalog="system" selectedImage="bubble.right.fill" id="ldz-Ye-FDT">
+                        <color key="badgeColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ORj-QJ-iZu">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -96,7 +99,9 @@
         <scene sceneID="NTE-Oa-EMf">
             <objects>
                 <navigationController id="Dk7-Pj-2bK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Profile" id="uRm-ew-I1a"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.crop.square" catalog="system" selectedImage="person.crop.square" id="uRm-ew-I1a">
+                        <color key="badgeColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="7ub-oT-qPW">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -111,6 +116,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bubble.right" catalog="system" width="128" height="110"/>
+        <image name="bubble.right.fill" catalog="system" width="128" height="110"/>
+        <image name="person.crop.square" catalog="system" width="128" height="114"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
