@@ -119,7 +119,7 @@ class RegisterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "Log In"
+        title = "Register"
         view.backgroundColor = .white
        
         registerButton.addTarget(self, action: #selector(registerButtonTapped), for: .touchUpInside)

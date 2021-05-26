@@ -81,13 +81,13 @@
 		0B71190D264ECDB80053D66B /* chatApp */ = {
 			isa = PBXGroup;
 			children = (
+				0BAD3CD22652C698008C24D4 /* GoogleService-Info.plist */,
 				0B711922264ECE4C0053D66B /* Models */,
 				0B711925264ECE670053D66B /* ViewModels */,
 				0B711926264ECE6D0053D66B /* Resources */,
 				0B711924264ECE590053D66B /* Controllers */,
 				0B711923264ECE510053D66B /* Views */,
 				0B71191C264ECDB90053D66B /* Info.plist */,
-				0BAD3CD22652C698008C24D4 /* GoogleService-Info.plist */,
 			);
 			path = chatApp;
 			sourceTree = "<group>";
@@ -186,6 +186,7 @@
 				0B711908264ECDB80053D66B /* Frameworks */,
 				0B711909264ECDB80053D66B /* Resources */,
 				BFE2F056B3EF7F681AD41D43 /* [CP] Embed Pods Frameworks */,
+				488E7DA9527C34CCC7E831C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,6 +244,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		488E7DA9527C34CCC7E831C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chatApp/Pods-chatApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-chatApp/Pods-chatApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-chatApp/Pods-chatApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		73000FE5B534F19ADCD819EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

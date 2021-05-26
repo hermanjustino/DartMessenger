@@ -3,9 +3,6 @@
 //  chatApp
 //
 //  Created by Herman Justino on 2021-05-14.
-//
-// App Icons by:
-// <a target="_blank" href="undefined/icons/set/chat--v1">Chat icon</a> icon by <a target="_blank" href="">Icons8</a>
 
 import UIKit
 import FirebaseAuth
